@@ -15,7 +15,6 @@ body{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    background-color: #f3cfad;
 }
   .navbar-nav{
     color: #f2f2f2;
@@ -26,14 +25,17 @@ body{
     padding: 40px 0;
   }
   .header {
+    background-image: url("public/backheader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     flex-flow: column;
     align-content: center;
-    padding:;
-    background-color: #f3cfad;
     position: relative;
     overflow: hidden;
     color: #172326;
@@ -278,4 +280,11 @@ body{
     opacity: 0.5;
     color: white;
     text-decoration: none;
+}
+.content__item__clock{
+      font-family: PlayfairDisplay;
+      font-size: 57px;
+      font-weight: bold;
+      text-align: center;
+      color: #1e3034;
 }
